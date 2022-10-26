@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
-      $sqlAdd = "insert into certifications (certification_name) value (?)";
+      $sqlAdd = "insert into certifications (certificate_name) values (?)";
       $stmtAdd = $conn->prepare($sqlAdd);
       $stmtAdd->bind_param("s", $_POST['iName']);
       $stmtAdd->execute();
