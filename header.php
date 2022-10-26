@@ -21,6 +21,7 @@
             <li><a class="dropdown-item" href="instructor-cards.php">INSTRUCTOR INFO CARDS</a></li>
             <li><a class="dropdown-item" href="courses.php">COURSES</a></li>
             <li><a class="dropdown-item" href="jobs.php">STUDENT JOBS</a></li>
+            <li><a class="dropdown-item" href="certifications.php">Certifications</a></li>
           </ul>
         </li>
         <li class="nav-item">
