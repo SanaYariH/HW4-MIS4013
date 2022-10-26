@@ -71,6 +71,7 @@ if ($result->num_rows > 0) {
           
           <tr>
             <td><?=$row["certification_id"]?></td>
+            <td><?=$row['certificate_name']?></td>
             <td>
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editcertifications<?=$row["certification_id"]?>">
                 Edit
