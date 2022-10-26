@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo '<div class="alert alert-success" role="alert">New certification is added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update certifications set certification_name=? where certificate_id=?";
+      $sqlEdit = "update certifications set certificate_name=? where certification_id=?";
       $stmtEdit = $conn->prepare($sqlEdit);
       $stmtEdit->bind_param("si", $_POST['iName'], $_POST['iid']);
       $stmtEdit->execute();
