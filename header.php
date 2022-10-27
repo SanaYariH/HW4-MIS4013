@@ -22,6 +22,7 @@
             <li><a class="dropdown-item" href="courses.php">COURSES</a></li>
             <li><a class="dropdown-item" href="jobs.php">STUDENT JOBS</a></li>
             <li><a class="dropdown-item" href="certifications.php">CERTIFICATIONS</a></li>
+            
           </ul>
         </li>
         <li class="nav-item">
